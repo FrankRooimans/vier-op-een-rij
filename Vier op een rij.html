@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+
+    var spelerAanDeBeurt = 0;
+
+        function spelen(vakjeid) {
+
+            var gekozenVakje = document.getElementById("vakje"+vakjeid);
+
+            // document.getElementById("een").style.backgroundColor = "red";
+
+            // gekozenVakje.style.backgroundColor = "red"
+
+            if(spelerAanDeBeurt == 0) {
+
+                spelerAanDeBeurt = 1;
+                gekozenVakje.style.backgroundColor = "red";
+            }
+            else {
+
+            spelerAanDeBeurt = 0;
+            gekozenVakje.style.backgroundColor = "yellow";
+        }
+
+        }
+
+        
+        
+    
+    </script>
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+            background-color:blue;
+            margin-left: 300px;
+
+        }
+
+        td {
+            border-color: black;
+            border:2px;
+            border-style: solid;
+            padding: 20px;
+        }
+
+        div {
+
+            border: 2px;
+            border-style: solid;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            background-color: white;
+        
+        }
+
+        @import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+
+        p {
+
+            font-size: 60px;
+            font-family: 'Barriecito', cursive;
+            margin-left: 470px;
+            margin-top: 0px;
+        }
+
+    
+    
+    </style>
+
+    <table>
+
+        <tr>
+            <td><div id= vakje1 onclick="spelen(1)"></div></td>
+            <td><div id= vakje2 onclick="spelen(2)"></div></td>
+            <td><div id= vakje3 onclick="spelen(3)"></div></td>
+            <td><div id= vakje4 onclick="spelen(4)"></div></td>
+            <td><div id= vakje5 onclick="spelen(5)"></div></td>
+            <td><div id= vakje6 onclick="spelen(6)"></div></td>
+            <td><div id= vakje7 onclick="spelen(7)"></div></td>
+        </tr>
+
+        <tr>
+                <td><div id= vakje8 onclick="spelen(8)"></div></td>
+                <td><div id= vakje9 onclick="spelen(9)"></div></td>
+                <td><div id= vakje10 onclick="spelen(10)"></div></td>
+                <td><div id= vakje11 onclick="spelen(11)"></div></td>
+                <td><div id= vakje12 onclick="spelen(12)"></div></td>
+                <td><div id= vakje13 onclick="spelen(13)"></div></td>
+                <td><div id= vakje14 onclick="spelen(14)"></div></td>
+            </tr>
+
+            <tr>
+                    <td><div id= vakje15 onclick="spelen(15)"></div></td>
+                    <td><div id= vakje16 onclick="spelen(16)"></div></td>
+                    <td><div id= vakje17 onclick="spelen(17)"></div></td>
+                    <td><div id= vakje18 onclick="spelen(18)"></div></td>
+                    <td><div id= vakje19 onclick="spelen(19)"></div></td>
+                    <td><div id= vakje20 onclick="spelen(20)"></div></td>
+                    <td><div id= vakje21 onclick="spelen(21)"></div></td>
+                </tr>
+
+                <tr>
+                        <td><div id= vakje22 onclick="spelen(22)"></div></td>
+                        <td><div id= vakje23 onclick="spelen(23)"></div></td>
+                        <td><div id= vakje24 onclick="spelen(24)"></div></td>
+                        <td><div id= vakje25 onclick="spelen(25)"></div></td>
+                        <td><div id= vakje26 onclick="spelen(26)"></div></td>
+                        <td><div id= vakje27 onclick="spelen(27)"></div></td>
+                        <td><div id= vakje28 onclick="spelen(28)"></div></td>
+                    </tr>
+
+                    <tr>
+                            <td><div id= vakje29 onclick="spelen(29)"></div></td>
+                            <td><div id= vakje30 onclick="spelen(30)"></div></td>
+                            <td><div id= vakje31 onclick="spelen(31)"></div></td>
+                            <td><div id= vakje32 onclick="spelen(32)"></div></td>
+                            <td><div id= vakje33 onclick="spelen(33)"></div></td>
+                            <td><div id= vakje34 onclick="spelen(34)"></div></td>
+                            <td><div id= vakje35 onclick="spelen(35)"></div></td>
+                        </tr>
+
+                        <tr>
+                                <td><div id= vakje36 onclick="spelen(36)"></div></td>
+                                <td><div id= vakje37 onclick="spelen(37)"></div></td>
+                                <td><div id= vakje38 onclick="spelen(38)"></div></td>
+                                <td><div id= vakje39 onclick="spelen(39)"></div></td>
+                                <td><div id= vakje40 onclick="spelen(40)"></div></td>
+                                <td><div id= vakje41 onclick="spelen(41)"></div></td>
+                                <td><div id= vakje42 onclick="spelen(42)"></div></td>
+                            </tr>
+        
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+    
+    <br>
+    
+    <p>Vierop een rij</p>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
